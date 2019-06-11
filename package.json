@@ -1,0 +1,23 @@
+{
+  "name": "portfolio_site",
+  "version": "0.0.1",
+  "description": "A portfolio site for previous techdegree projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmccready/techdegree-project-6.git"
+  },
+  "author": "Vinson McCready",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmccready/techdegree-project-6/issues"
+  },
+  "homepage": "https://github.com/vmccready/techdegree-project-6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.3"
+  }
+}
