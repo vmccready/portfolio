@@ -1,0 +1,47 @@
+{"projects": [
+    {
+        "id": 0,
+        "project_name": "A Random Quote Generator",
+        "description": "A simple website that shows a random quote from a list of quotes.",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "link",
+        "github_link": "https://github.com/vmccready/techdegree-project-1",
+        "image_urls": ["/static/img/project1-1.jpg", "/static/img/project1-2.jpg"]
+    },
+    {
+        "id": 1,
+        "project_name": "Student Directory",
+        "description": "Scroll through pages of a list of students. Search for students by name. If javascript is not enabled, a full list of students is still available",
+        "technologies": ["JavaScript", "HTML", "CSS"],
+        "live_link": "link",
+        "github_link": "https://github.com/vmccready/techdegree-project-2",
+        "image_urls": ["/static/img/project2-1.jpg", "/static/img/project2-2.jpg"]
+    },
+    {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Fill out a form with interactive elements.",
+        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
+        "live_link": "link",
+        "github_link": "https://github.com/vmccready/techdegree-project-3",
+        "image_urls": ["/static/img/project3-1.jpg", "/static/img/project3-2.jpg"]
+    },
+    {
+        "id": 3,
+        "project_name": "name",
+        "description": "description",
+        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
+        "live_link": "link",
+        "github_link": "https://github.com/vmccready/techdegree-project-4",
+        "image_urls": ["/static/img/project4-1.jpg", "/static/img/project4-2.jpg"]
+    },
+    {
+        "id": 4,
+        "project_name": "name",
+        "description": "description",
+        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
+        "live_link": "link",
+        "github_link": "https://github.com/vmccready/techdegree-project-5",
+        "image_urls": ["/static/img/project5-1.jpg", "/static/img/project5-2.jpg"]
+    }
+]}
