@@ -14,17 +14,16 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/img/my-image.png', height='350', width='550')
           .cell.auto
 
-            //- Add your name here.
             h5 Vinson McCready
 
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
             p.text-light
-              | Hello. I am an aspiring full stack web developer. 
+              | Hello! I am Currently a loan specialist for my
+              | local credit union, but I hope to use my previous knowledge from engineering and current studies in web development
+              | to start a new career as a full stack web developer!
 
-            //- Add about page route to the href below. 
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
@@ -32,7 +31,6 @@ html(class="no-js" lang="en" dir="ltr")
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Vinson McCready
       block content
         

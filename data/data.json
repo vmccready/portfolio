@@ -4,7 +4,7 @@
         "project_name": "A Random Quote Generator",
         "description": "A simple website that shows a random quote from a list of quotes.",
         "technologies": ["JavaScript", "HTML", "CSS"],
-        "live_link": "link",
+        "live_link": "https://vmccready.github.io/techdegree-project-1/",
         "github_link": "https://github.com/vmccready/techdegree-project-1",
         "image_urls": ["/static/img/project1-1.jpg", "/static/img/project1-2.jpg"]
     },
@@ -13,7 +13,7 @@
         "project_name": "Student Directory",
         "description": "Scroll through pages of a list of students. Search for students by name. If javascript is not enabled, a full list of students is still available",
         "technologies": ["JavaScript", "HTML", "CSS"],
-        "live_link": "link",
+        "live_link": "https://vmccready.github.io/techdegree-project-2/",
         "github_link": "https://github.com/vmccready/techdegree-project-2",
         "image_urls": ["/static/img/project2-1.jpg", "/static/img/project2-2.jpg"]
     },
@@ -22,25 +22,25 @@
         "project_name": "Interactive Form",
         "description": "Fill out a form with interactive elements.",
         "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
-        "live_link": "link",
+        "live_link": "https://vmccready.github.io/techdegree-project-3/",
         "github_link": "https://github.com/vmccready/techdegree-project-3",
         "image_urls": ["/static/img/project3-1.jpg", "/static/img/project3-2.jpg"]
     },
     {
         "id": 3,
-        "project_name": "name",
-        "description": "description",
-        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
-        "live_link": "link",
+        "project_name": "Game Show App",
+        "description": "A browser-based word guessing game using JavaScript Object-Oriented Programming. Click letters to guess the phrase.",
+        "technologies": ["JavaScript", "HTML", "CSS", "JQuery"],
+        "live_link": "https://vmccready.github.io/techdegree-project-4/",
         "github_link": "https://github.com/vmccready/techdegree-project-4",
         "image_urls": ["/static/img/project4-1.jpg", "/static/img/project4-2.jpg"]
     },
     {
         "id": 4,
-        "project_name": "name",
-        "description": "description",
-        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "Regex"],
-        "live_link": "link",
+        "project_name": "Random User Generator API",
+        "description": "An app for a directory for a ficitonal company. The employees are randomly generated and pulled from an API. ",
+        "technologies": ["JavaScript", "HTML", "CSS", "JQuery", "AJAX"],
+        "live_link": "https://vmccready.github.io/techdegree-project-5/",
         "github_link": "https://github.com/vmccready/techdegree-project-5",
         "image_urls": ["/static/img/project5-1.jpg", "/static/img/project5-2.jpg"]
     }

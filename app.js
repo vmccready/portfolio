@@ -20,8 +20,19 @@ app.get('/about', (req, res) => {
 app.get('/project/:id', (req, res) => {
     const { id } = req.params;
     const project = projects[id];
-    // console.log(project.image_urls)
     res.render('project', { project });
+});
+
+app.use((req, res, next) => {
+    const err = new Error('Oops! That page doesnt exist.');
+    err.status = 404;
+    next(err);
+});
+
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error', err);
 });
 
 app.listen(port, () => {
