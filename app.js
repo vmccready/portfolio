@@ -30,6 +30,7 @@ app.use((req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
+    console.log("That webpage doesn't exist.")
     res.locals.error = err;
     res.status(err.status);
     res.render('error', err);

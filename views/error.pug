@@ -4,3 +4,5 @@ extends layout.pug
 block content 
     h1= `${error.message} - Status: ${error.status}`
     pre= error.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
